@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  width: 200px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  border-radius: 10px;
+  border-color: black;
+  font-family: serif;
+}
+#top {
+  font-size: 60px;
+  position: absolute;
+  left: 5px;
+}
+
+#middle {
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  text-decoration: solid;
+}
+
+#bottom {
+  font-size: 60px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  rotate: 180deg;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+#btn {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.btn {
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
